@@ -1,0 +1,4 @@
+#Mon Mar 11 17:04:41 EDT 2024
+base.0=/Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/build/intermediates/dex/civRelease/minifyCivReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

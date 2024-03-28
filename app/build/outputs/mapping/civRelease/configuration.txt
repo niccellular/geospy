@@ -1,0 +1,116 @@
+# The proguard configuration file for the following section is /Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/proguard-gradle.txt
+-dontskipnonpubliclibraryclasses
+-dontshrink
+-dontoptimize
+
+############### ACRA specifics
+# we need line numbers in our stack traces otherwise they are pretty useless
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+-applymapping <atak.proguard.mapping>
+-repackageclasses atakplugin.geospy
+
+-keepattributes *Annotation*
+-keepattributes Signature, InnerClasses
+
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+
+-keep class * implements gov.tak.api.plugin.IPlugin {
+}
+
+
+
+# Preserve all native method names and the names of their classes.
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclassmembers class * {
+    @org.simpleframework.xml.* *;
+}
+
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+
+
+-keep class * extends transapps.maps.plugin.tool.Tool {
+}
+-keep class * implements transapps.maps.plugin.lifecycle.Lifecycle {
+}
+
+# overcome an existing bug in the gradle subsystem (3.5.x)
+-keep class module-info
+
+-keepclassmembers class com.atakmap.android.maps.** { *; }
+
+# this is from trying to sign for 4.8 / switching to ProGuard from R8
+-keep class kotlin.jvm.internal.** {*;}
+-keep class kotlin.coroutines.jvm.internal.** {*;}
+-keep class kotlin.jvm.functions.** {*;}
+-keep class kotlin.coroutines.** {*;}
+-keep class kotlin.collections.** {*;}
+-keepclassmembers class com.atakmap.android.geospy.** { *; }
+# suppress warnings
+-dontwarn module-info
+-dontwarn java.awt.**
+-dontwarn org.xmlpull.**
+-dontwarn org.xml.sax.ContentHandler
+-dontwarn org.bouncycastle.**
+-dontwarn org.conscrypt.**
+-dontwarn org.openjsse.**
+-dontwarn android.net.**
+-dontwarn java.nio.ByteBuffer
+-dontwarn kotlin.jvm.internal.**
+-dontwarn kotlin.coroutines.jvm.internal.**
+-dontwarn kotlin.jvm.functions.**
+-dontwarn kotlin.coroutines.**
+-dontwarn kotlin.collections.**
+-dontwarn android.content.res.XmlResourceParser
+-dontwarn androidx.**
+# End of content from /Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/proguard-gradle.txt
+# The proguard configuration file for the following section is /Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
+-keep class com.atakmap.app.component { <init>(); }
+-keep class com.atakmap.android.gui.PanEditTextPreference { <init>(...); }
+
+
+# End of content from /Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/user/.gradle/caches/transforms-3/84a508d82903c26598dce552aa050ca4/transformed/rules/lib/META-INF/proguard/okhttp3.pro
+# JSR 305 annotations are for embedding nullability information.
+-dontwarn javax.annotation.**
+
+# A resource is loaded with a relative path so the package of this class must be preserved.
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
+
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# OkHttp platform used only on JVM and when Conscrypt and other security providers are available.
+-dontwarn okhttp3.internal.platform.**
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+
+# End of content from /Users/user/.gradle/caches/transforms-3/84a508d82903c26598dce552aa050ca4/transformed/rules/lib/META-INF/proguard/okhttp3.pro
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">GeoSpy</string>
+    <!-- description -->
+    <string name="app_desc">GeoSpy plugin</string>
+    <!-- Main layout -->
+   <string name="preferences_title">geospy Preferences</string>
+    <string name="preferences_summary">Preferences for geospy</string>
+    <string name="preferences_dialogTitle">Set your GeoSpy API Key</string>
+    <string name="preferences_apiTitle">API Key</string>
+    <string name="geospy_preferences">geospy_preferences</string>
+
+</resources>

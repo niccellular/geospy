@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.atakmap.android.geospy.plugin.app-merged_res-6:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,3,11,10,9,8,7",
+                        "startColumns": "4,4,4,4,4,4,3",
+                        "startOffsets": "141,72,485,428,352,281,216",
+                        "endColumns": "50,43,65,56,75,70,63",
+                        "endOffsets": "187,111,546,480,423,347,276"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "181,232,276,342,399,475,546",
+                        "endColumns": "50,43,65,56,75,70,64",
+                        "endOffsets": "227,271,337,394,470,541,606"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "5,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,80",
+                        "endColumns": "45,39",
+                        "endOffsets": "161,115"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,39",
+                        "endOffsets": "96,136"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/src/main/res/values/dimen.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "196",
+                        "endColumns": "39",
+                        "endOffsets": "231"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "141",
+                        "endColumns": "39",
+                        "endOffsets": "176"
+                    }
+                },
+                {
+                    "source": "/Users/user/atak/atak-civ-maintenance-4.10/plugins/geospy/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "68,3,64,85,13,45,54,77,97,89",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3163,49,3024,4029,590,2166,2490,3669,4474,4170",
+                        "endLines": "74,10,66,87,38,51,61,81,107,93",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3559,583,3157,4164,1990,2452,3017,3940,5057,4416"
+                    },
+                    "to": {
+                        "startLines": "12,19,27,30,33,47,50,58,63,74",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,788,1327,1465,1605,2168,2251,2783,3059,3647",
+                        "endLines": "18,26,29,32,46,49,57,62,73,78",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "783,1322,1460,1600,2163,2246,2778,3054,3642,3893"
+                    }
+                }
+            ]
+        }
+    ]
+}

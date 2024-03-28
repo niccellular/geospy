@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_title" />
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_geospy_api"
+        android:title="@string/preferences_apiTitle"
+        android:summary="@string/preferences_summary"
+        android:dialogTitle="@string/preferences_dialogTitle"
+        android:defaultValue="0"/>
+</PreferenceScreen>

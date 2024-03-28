@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.atakmap.android.geospy.plugin",
+  "variantName": "civRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "0.1 () - [4.10.0]",
+      "outputFile": "ATAK-Plugin-geospy-0.1--4.10.0-civ-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

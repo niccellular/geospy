@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/drawable_ic_launcher.png.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/drawable_new_dark_button_bg.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/drawable/new_dark_button_bg.xml"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/xml_preferences.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/drawable_new_dark_button_selected.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/drawable/new_dark_button_selected.xml"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/drawable_btn_gray.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/drawable/btn_gray.xml"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/layout_main_layout.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/layout/main_layout.xml"
+    },
+    {
+        "merged": "com.atakmap.android.geospy.plugin.app-merged_res-6:/drawable_new_dark_button_disabled.xml.flat",
+        "source": "com.atakmap.android.geospy.plugin.app-main-9:/drawable/new_dark_button_disabled.xml"
+    }
+]
